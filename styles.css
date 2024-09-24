@@ -1,1 +1,9 @@
 /*  your css code here. If applicable */
+#grid-container {
+      display: grid;
+      grid-template-columns:repeat(3, 150px);
+      grid-template-rows:repeat(3,150px)
+    }
+.same{
+	border:2px solid black;
+}
