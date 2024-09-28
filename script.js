@@ -1,11 +1,11 @@
 //your JS code here. If required.
-let container=document.querySelector("#grid-container")
+let container=document.querySelector(".grid-container")
 let submit=document.querySelector("#change_button")
 let reset=document.querySelector("#Reset")
 for(let i=0;i<9;i++){
 	let newdiv=document.createElement("div")
 	newdiv.innerText=i+1;
-	newdiv.setAttribute("id", "grid-item-" + (i+1));
+	newdiv.setAttribute("class", "grid-item-" + (i+1));
 	newdiv.className="same";
 	container.append(newdiv);
 }
