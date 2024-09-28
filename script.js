@@ -10,8 +10,8 @@ for(let i=0; i<9; i++){
 let items = document.querySelectorAll(".same");
 let input = document.querySelector("#block_id");
 let color = document.querySelector("#colour_id");
-submit.addEventListener("click", change);
-function change() {
+submit.addEventListener("click", changecolor);
+function changecolor() {
     let gridnumber = input.value;
     items[gridnumber-1].style.backgroundColor = color.value;		
 }
